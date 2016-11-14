@@ -1,0 +1,99 @@
+.md_banner {
+  width: 1280px;
+  height: 465px;
+  font-size: 14px;
+  background: url("images/banner.jpg") center;
+}
+.md_banner_content {
+  width: 1210px;
+  height: 465px;
+  margin: 0 auto;
+}
+.md_banner_content .left_slider {
+  width: 210px;
+  height: 465px;
+  background-color: #C81623;
+  /*设置白色无效:继承的权重为0*/
+  /*color: white;*/
+}
+.md_banner_content .left_slider a {
+  color: white;
+  width: 190px;
+  text-align: left;
+  display: inline-block;
+  height: 31px;
+  line-height: 31px;
+  padding: 0 10px;
+}
+.md_banner_content .left_slider a:hover {
+  color: red;
+  background-color: white;
+}
+.md_banner_content .left_slider a span {
+  float: right;
+}
+
+/*设置中间徐若瑄的广告图片*/
+.center_ba {
+  width: 730px;
+  height: 454px;
+  padding: 11px 10px 0px 10px;
+  /*background-color: pink;*/
+}
+
+/*右边盒子的设置*/
+.right_slider {
+  width: 250px;
+  height: 465px;
+  /*background-color: pink;*/
+  font-size: 12px;
+}
+.top_quick_paper {
+  width: 248px;
+  height: 226px;
+  border: 1px gray solid;
+  border-bottom: none;
+}
+.quick_paper_text {
+  height: 42px;
+  border-bottom: 1px gray dashed;
+}
+.quick_paper_text p {
+  padding: 10px 10px;
+}
+
+/*设置特惠盒子的高度*/
+.sell_box {
+  height: 140px;
+  border-bottom: 1px gray dashed;
+}
+.sell_box ul li {
+  padding-left: 8px;
+}
+.sell_box ul a {
+  line-height:28px;
+}
+
+.live_seaver p {
+  padding: 10px;
+}
+
+/*----------- 设置表格的样式--------*/
+.right_slider table {
+  border-collapse: collapse;
+}
+.right_slider table  td {
+  width: 62px;
+  height: 78px;
+  border: 1px solid gray;
+  text-align: center;
+}
+.right_slider table  td p.small_img {
+  background: url("images/icon_lifeserv.png") no-repeat;
+  width: 28px;
+  /*通过微调结果设置为25px*/
+  height: 25px;
+  margin: 0 auto;
+  /*文字和图片留有5个像素*/
+  margin-bottom: 5px;
+}

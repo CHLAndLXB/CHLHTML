@@ -1,0 +1,17 @@
+.more_box {
+  width: 1280px;
+  height: 54px;
+  background-color: #F5F5F5;
+}
+.more_box .more_content {
+  width: 1210px;
+  height: 54px;
+  margin: 0 auto;
+}
+
+.more_box .more_content img {
+  margin-right: 105px;
+}
+.more_box .more_content img.last_img {
+  margin-right: 0px;
+}

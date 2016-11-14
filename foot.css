@@ -1,0 +1,16 @@
+.foot {
+  height: 205px;
+  width: 1280px;
+  text-align: center;
+  font-size: 14px;
+}
+.foot .a_link {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.foot p {
+  line-height: 20px;
+}
+.foot p.mess {
+  margin-top: 15px;
+}

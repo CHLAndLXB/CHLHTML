@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: gray;
+  text-align: center;
+}
+a:hover {
+  color: red;
+}
+ul {
+  list-style: none;
+}
+input {
+  outline-style: none;
+}
+.left_flow  {
+  float: left;
+}
+.right_flow {
+  float: right;
+}
+.add_sprite_img {
+  background: url("images/sprite.png") no-repeat;
+}

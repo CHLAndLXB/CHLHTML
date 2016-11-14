@@ -1,0 +1,51 @@
+.all_shooping {
+  width: 1280px;
+  height: 44px;
+  border-bottom: 2px solid  #B1191A;
+}
+.all_sp_content {
+  width: 1210px;
+  height: 44px;
+  margin: 0 auto;
+  /*background-color: pink;*/
+}
+/*----- 左侧的文本框------*/
+.all_sp_content .left_txt  {
+  width: 210px;
+  height: 44px;
+  background-color: #B1191A;
+}
+.all_sp_content .left_txt p {
+  padding: 13px 10px;
+  color: white;
+}
+/*-------中间的导航框---------*/
+.all_sp_content .middle_nav {
+  position: relative;
+}
+.all_sp_content .middle_nav li {
+  float: left;
+  line-height: 44px;
+  margin: 0 20px;
+}
+/*设置 new 的定位*/
+.all_sp_content .middle_nav div {
+  background: url("images/new.jpg");
+  width: 16px;
+  height: 17px;
+  position: absolute;
+  top: -2px;
+}
+.all_sp_content .middle_nav div.new1 {
+  left: 122px;
+}
+.all_sp_content .middle_nav div.new2 {
+  left: 400px;
+}
+/*设置右边一元骑走的盒子*/
+.all_sp_content .one_bike {
+  width: 140px;
+  height: 44px;
+  background: url("images/bike.jpg");
+}
+

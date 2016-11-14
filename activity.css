@@ -1,0 +1,24 @@
+.activity_img {
+  width: 1280px;
+  height: 164px;
+  margin-top: 16px;
+}
+.activity_content {
+  width: 1210px;
+  height: 164px;
+  margin: 0 auto;
+}
+.activity_content img {
+  width: 238px;
+  height: 164px;
+  float: left;
+  margin-right: 5px;
+}
+.activity_content img.first_img {
+  height: 150px;
+  /*margin-top: 0px;*/
+}
+/*21*/
+.activity_content img.last_img {
+  margin-right: 0px;
+}

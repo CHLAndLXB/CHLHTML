@@ -1,0 +1,52 @@
+.head_box {
+  height: 30px;
+  width: 1280px;
+  background-color: #F1F1F1;
+  font-size: 12px;
+  color: gray;
+}
+.hd_nav {
+  height: 30px;
+  width: 1210px;
+  margin: 0 auto;
+  /*background-color: pink;*/
+}
+.hd_nav .goods {
+  width: 100px;
+  float: left;
+}
+.hd_nav .goods  a{
+  display: inline-block;
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+}
+.hd_nav a:hover {
+  background-color: white;
+}
+/* 右边的导航栏*/
+.hd_nav .right_nav {
+  float: right;
+}
+.hd_nav .right_nav li {
+  float: left;
+}
+.hd_nav .right_nav li a {
+  display: inline-block;
+  width: 70px;
+  height: 30px;
+  line-height: 30px;
+}
+/*特殊化处理手机*/
+.hd_nav .right_nav li a.iphone {
+  padding-left: 10px;
+  background: url("images/sprite.png") no-repeat 3px 6px;
+}
+.hd_nav .right_nav li a.iphone:hover {
+  background-position: 3px -19px;
+  background-color: white;
+}
+/*特殊化处理文字*/
+.hd_nav .right_nav li a.current {
+  color: red;
+}

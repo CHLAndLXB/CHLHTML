@@ -1,0 +1,44 @@
+.shopping_guide {
+  height: 186px;
+  width: 1280px;
+  margin-top: 25px;
+  font-size: 12px;
+}
+.shopping_guide_content {
+  height: 186px;
+  width: 1210px;
+  margin: 0 auto;
+  border-bottom: 1px solid gray;
+}
+.shopping_guide_content dl {
+  float: left;
+  margin-right: 100px;
+}
+.shopping_guide_content dl dt {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+.shopping_guide_content dl dd {
+  line-height: 20px;
+}
+.shopping_guide_content div.china {
+  width: 203px;
+  height: 169px;
+  background: url("images/china.png") no-repeat 0px -131px;
+}
+.shopping_guide_content div.china p.area {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.shopping_guide_content div.china p.area1 {
+  line-height: 18px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.shopping_guide_content div.china p.detail {
+  text-align: right;
+}
+
